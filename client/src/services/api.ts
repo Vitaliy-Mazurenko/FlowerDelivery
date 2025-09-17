@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Shop, Flower, Order, OrderItem } from '../types';
 
-const API_URL = 'https://flowerdelivery.onrender.com/'; // Replace with your backend URL
+const API_URL = 'https://flowerdelivery.onrender.com/api'; // Replace with your backend URL
 
 // Shops
 export const getShops = async (): Promise<Shop[]> => {
